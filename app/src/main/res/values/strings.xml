@@ -1,0 +1,21 @@
+<resources>
+    <string name="Anime_Quote">Anime Quote</string>
+    <string name="Start_Quotes">Start Quotes</string>
+    <string name="thank_you_for_using_my_app">THANK YOU FOR USING MY APP</string>
+
+    <string name="affirmations1">The weak dont get to decide anything, not even how they die</string>
+    <string name="affirmations2">People dont fear god, fear itself is god</string>
+    <string name="affirmations3">When a man learns to love, he must bear the risk of hatred.</string>
+    <string name="affirmations4">If you dont share someones pain, you can never understand them.</string>
+    <string name="affirmations5">PEOPLES DREAMS......HAVE NO END</string>
+    <string name="affirmations6">If you dont like your destiny, dont accept it. Instead have the courage to change it the way you want it to be.</string>
+    <string name="affirmations7">If you dont take risk, you cant create a future.</string>
+    <string name="affirmations8">Knowing what it feels like to be in pain, is exactly why we try to be kind to others.</string>
+    <string name="affirmations9">No one is born in this world to be alone.</string>
+    <string name="affirmations10">Dont try to find a reason for somebodys love.</string>
+    <string name="next">Next</string>
+    <string name="jiraiya">jiraiya</string>
+    <string name="done">Done</string>
+
+
+</resources>

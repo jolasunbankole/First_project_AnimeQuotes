@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentMain">
+    <fragment
+        android:id="@+id/fragmentMain"
+        android:name="com.example.anime_quote.FragmentMain"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_fragmentMain_to_fragmentPic"
+            app:destination="@id/fragmentPic" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentPic"
+        android:name="com.example.anime_quote.FragmentPic"
+        android:label="fragment_pic"
+        tools:layout="@layout/fragment_pic" >
+        <action
+            android:id="@+id/action_fragmentPic_to_fragmentEnelPic"
+            app:destination="@id/fragmentEnelPic" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentEnelPic"
+        android:name="com.example.anime_quote.FragmentEnelPic"
+        android:label="fragment_enel_pic"
+        tools:layout="@layout/fragment_enel_pic" >
+        <action
+            android:id="@+id/action_fragmentEnelPic_to_fragmentLawPic"
+            app:destination="@id/fragmentLawPic" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentLawPic"
+        android:name="com.example.anime_quote.FragmentLawPic"
+        android:label="fragment_law_pic"
+        tools:layout="@layout/fragment_law_pic" >
+        <action
+            android:id="@+id/action_fragmentLawPic_to_fragmentBbPic"
+            app:destination="@id/fragmentBbPic" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentBbPic"
+        android:name="com.example.anime_quote.FragmentBbPic"
+        android:label="fragment_bb_pic"
+        tools:layout="@layout/fragment_bb_pic" >
+        <action
+            android:id="@+id/action_fragmentBbPic_to_fragmentMadaraPic"
+            app:destination="@id/fragmentMadaraPic" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentMadaraPic"
+        android:name="com.example.anime_quote.FragmentMadaraPic"
+        android:label="fragment_madara_pic"
+        tools:layout="@layout/fragment_madara_pic" >
+        <action
+            android:id="@+id/action_fragmentMadaraPic_to_fragmentLuffyPic"
+            app:destination="@id/fragmentLuffyPic" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentLuffyPic"
+        android:name="com.example.anime_quote.FragmentLuffyPic"
+        android:label="fragment_luffy_pic"
+        tools:layout="@layout/fragment_luffy_pic" >
+        <action
+            android:id="@+id/action_fragmentLuffyPic_to_fragmentNarutoPic"
+            app:destination="@id/fragmentNarutoPic" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentNarutoPic"
+        android:name="com.example.anime_quote.FragmentNarutoPic"
+        android:label="fragment_naruto_pic"
+        tools:layout="@layout/fragment_naruto_pic" >
+        <action
+            android:id="@+id/action_fragmentNarutoPic_to_fragmentJdsPic"
+            app:destination="@id/fragmentJdsPic" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentJdsPic"
+        android:name="com.example.anime_quote.FragmentJdsPic"
+        android:label="fragment_jds_pic"
+        tools:layout="@layout/fragment_jds_pic" >
+        <action
+            android:id="@+id/action_fragmentJdsPic_to_fragmentNagatoPic"
+            app:destination="@id/fragmentNagatoPic" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentNagatoPic"
+        android:name="com.example.anime_quote.FragmentNagatoPic"
+        android:label="fragment_nagato_pic"
+        tools:layout="@layout/fragment_nagato_pic" >
+        <action
+            android:id="@+id/action_fragmentNagatoPic_to_fragmentSengokuPic"
+            app:destination="@id/fragmentSengokuPic" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentSengokuPic"
+        android:name="com.example.anime_quote.FragmentSengokuPic"
+        android:label="fragment_sengoku_pic"
+        tools:layout="@layout/fragment_sengoku_pic" >
+        <action
+            android:id="@+id/action_fragmentSengokuPic_to_fragmentDone"
+            app:destination="@id/fragmentDone" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentDone"
+        android:name="com.example.anime_quote.FragmentDone"
+        android:label="fragment_done"
+        tools:layout="@layout/fragment_done" >
+        <action
+            android:id="@+id/action_fragmentDone_to_fragmentMain"
+            app:destination="@id/fragmentMain" />
+    </fragment>
+</navigation>
